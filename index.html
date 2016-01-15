@@ -1,0 +1,394 @@
+
+<!DOCTYPE HTML>
+
+<!--
+Dear Fellow Code Master,
+If you are looking at this to judge my code ability.. Please stop. Immediately. I started coding this in the beginning of learning html and CSS. About half way through making this underwear stain I almost started over (and I should have) but I pushed through anyway. If you want to see how I have progressed in the front-end coding arts, have a good laugh at this and than check out my latest work at http://activistreport.com/HomeT or http://remote.activistreport.com:8080. 
+
+Please do not judge me based on the jQuery filled mess. I knew no better.
+Matthew Eastman
+-->
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>ME | Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/mefav.png"/>
+    
+      <!-- Chang URLs to wherever Video.js files will be hosted 
+  <link href="video-js.css" rel="stylesheet" type="text/css">
+  video.js must be in the <head> for older IEs to work. 
+  <script src="video.js"></script>
+
+  
+  <script>
+    videojs.options.flash.swf = "video-js.swf";
+  </script>
+-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="wow.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="http://vjs.zencdn.net/4.12/video.js"></script>
+    
+<!--     heatmap analytics code   -->
+    <script type="text/javascript">
+(function() {
+var hm = document.createElement('script'); hm.type ='text/javascript'; hm.async = true;
+hm.src = ('++u-heatmap-it+log-js').replace(/[+]/g,'/').replace(/-/g,'.');
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm, s);
+})();
+</script>
+        
+<!-- redirect to wordpress for ipad and moble based on screen   -->
+    <script type="text/javascript">
+            if (screen.width <= 700) {
+            document.location = "http://mattheweastman.com/InterviewME";
+}
+ </script>
+
+   
+ 
+  <!-- ****Screen redirects ************************************************************************************************************  -->  
+<!--    https://github.com/hakimel/reveal.js more info-->
+    <!-- note: auto slide feature <section data-autoslide="3000"> -->      
+    
+        <!--    Good Screen source https://visual.ly/apple-devices-resolutions
+     send to remote for 1490 and up>  
+      
+<script type="text/javascript">
+            if (screen.width >= 1490) {
+            document.location = "http://apple.com";
+}
+    </script>
+
+  send to small computers screens 790 - 1490
+<script type="text/javascript">
+            if (screen.width >= 790) {
+            document.location = "http://batman.com";
+}
+ </script>
+
+send Klynt tablet for screens 701 to 790
+    <script type="text/javascript">
+            if (screen.width >= 740) {
+            document.location = "http://elon.edu";
+}
+ </script>
+    
+
+ send to remote for mobile remote
+<script type="text/javascript">
+            if (screen.width <= 740) {
+            document.location = "http://espn.com";
+}
+ </script>
+
+
+    
+    
+    <script type="text/javascript">
+
+var browsername=navigator.appName; 
+if( browsername == "Netscape" )
+{ 
+   window.location="http://activistreport.com";
+}
+else if ( browsername =="Microsoft Internet Explorer")
+{
+   window.location="http://www.location.com/ie.htm";
+}
+else
+{
+  window.location="http://www.location.com/other.htm";
+}
+</script>
+
+<script>    
+    var browsername=navigator.appName; 
+if( browsername == "Netscape" )
+{ 
+   window.location="http://espn.com";
+}
+else if ( browsername =="Microsoft Internet Explorer")
+{
+   window.location="http://matthewEastman.com";
+}
+else
+{
+  window.location="http://remote.ActivistReport.com:8080";
+}
+</script>
+    
+    <!-- **** Login ************************************************************************************************************  -->
+
+</head>   
+    <body>
+        <ul class="navigation">
+            <img id="logo" src="images/MElogo.png" data-slide="1"  data-stellar-background-ratio="0.5"> 
+            <li data-slide="2">UX &#38; Strategy</li>
+            <li data-slide="3"> Develop &#38; Produce</li>
+          <a class="a3" href="http://mattheweastman.com/SimplyLocal" target="_blank"> My Process <li class="li2" data-slide="4"></li></a>
+            <a href="/docs/EastmanCV.pdf" target="_blank">Resume<li data-slide="5"></li></a>
+            <li data-slide="7"> Interview me</li>
+            <a class="a4" href="mailto:DesignEastman@gmail.com"> Contact <li data-slide="7"></li></a>
+        </ul>
+       
+
+    <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5" >
+        <div id="player"> 
+            <iframe class="youtube-player" 
+                id="player" type="text/html" width="100%" height="100%" src="http://www.youtube.com/v/-89DR2M2Ip8?version=3&autoplay=1&playlist=-89DR2M2Ip8&showinfo=0&autohide=1" frameborder="1" muted="muted" allowfullscreen></iframe>
+        </div>
+         <span class="slideno"></span>
+        <a class="button" data-slide="2" title=""></a>
+    </div>
+
+<!--UX Research and Stratey------------------------------------------------------------------>
+
+<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="2.0">
+        <div id="slideHeader" class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0s"> UX Research &#38; Strategy </div>
+        <a class="button1" data-slide="1" title=""></a>
+        <div class="flex">
+           <div class="box1">
+              <img class="img3" src="images/SL_2.png">
+                <div class="hover1"> 
+                    <span class="boxinfo1">
+                        <a class="button4" href="http://mattheweastman.com/SimplyLocal" target="_blank"> See Process</a>
+                        <h2>Simply Local Mobile App</h2>
+                        <p>UX/UI - Conducted consumer research, designed mobile prototype, conducted UX testing, submitted grant purposal, created branding materials, and more. </p></span>                   </div>
+            </div>
+                
+                
+           <div class="box2" id="hideme">
+              <img class="img3" src="images/ipadEco2.png">
+                <div class="hover2"> 
+                    <span class="boxinfo2">
+                        <a class="button5i" href="http://mattheweastman.com/Edge_Activism" target="_blank"> iPad Lesson</a>
+                        <a class="button5i" href="/docs/EcoFlow.pdf" target="_blank"> Research</a>
+                        <h2>"Inter-Activism"</h2>
+                        <p> Research, iPad design - Used research from my master's thesis, The Use of Interacitve Media to create Eco-Activism, to create an educational iPad lesson using Adobe Edge Animate.</p></span>                   </div>
+            </div>
+                 <div class="box2" id="hideme">
+              <img class="img3" src="images/EcoAudience.png">
+                <div class="hover2"> 
+                    <span class="boxinfo3">
+                        <a class="button4" href="https://crewgreenresearch.wordpress.com/" target="_blank"> Test Methods</a>
+                                               <h2> Eco-Video Research</h2>
+                        <p> Research, Test Methods - Sampled two test groups of middle school students to discover the most "sharable" genre and style environmental youtube video about climate change.</p></span>                   </div>
+            </div>
+           
+            <div class="box2">
+              <img class="img3" src="images/webtvR2.png">
+                <div class="hover2"> 
+                    <span class="boxinfo2">
+                        <a class="button4" href="http://mattheweastman.com/ARProcess/" target="_blank">See Process</a>
+                            <h2> WebTV Remote</h2>
+                        <p> UI - The Activist Report Remote is designed for a webTV platform.The "Compass" allows users to navigate through the platform, control the video player, and perform interactive actions.</p>
+                    </span>
+                </div>
+            </div>
+                 <div class="box2" id="hideme">
+              <img class="img3" src="images/nutella.png">
+                <div class="hover2"> 
+                    <span class="boxinfo2">
+                        <a class="button4" href="https://youtu.be/ekpt_Tlp5W4" target="_blank"> Nutella Video</a>
+                            <h2> Consumer Interviews</h2>
+                            <p> UX, Video - Conducted over 25 interviews of Elon Univeristy students to gather insight of Nutella consumption in the college setting. I interviewed participants &#38; edited the video. </p>
+                    </span>
+                </div>
+                </div>
+
+<!--
+            <div class="box2">
+              <img class="img2" src="images/webTV.png">
+                <div class="hover2"> 
+                    <span class="boxinfo2">
+                        <a class="button6" href="http://activistreport.com/" target="_blank"> WebTV Platform</a>
+                                               <h2> WebTV Platform</h2>
+                        <p> Media, UX - The Activist Report is a political entertainment series that uses a multidevice viewing platform. I created all media content, designed companion app, and conducted UX testing. </p>
+                    </span>
+                </div>
+            </div>
+-->
+                               
+        
+                        
+            <div class="box2">
+              <img class="img3" src="images/Vice3.png">
+                <div class="hover2"> 
+                    <span class="boxinfo2">
+                        <a class="button5" href="/docs/VicePersona.pdf" target="_blank">Persona</a>
+                        <a class="button5" href="/docs/Vice_Audience.pdf" target="_blank">Research</a>
+                            <h2>Vice Persona</h2>
+                             <p> UX - Created persona and conducted audience analysis for the Vice News platform. </p>
+                    </span>
+                </div>
+            </div>
+                
+            </div>      
+</div>
+        
+<!--End Slide 2------Start Develop and produce--------------------------------------------->
+
+            <div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="2.0">
+                <div id="slideHeader2" class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0s"> Develop &#38; Produce </div>
+        <div class="flex">   
+            <div class="box1">
+              <img class="img3" src="images/webTV.png">
+                <div class="hover1"> 
+                    <span class="boxinfo1">
+                        <a class="button4" href="http://activistreport.com/HomeT" target="_blank">See Platform</a>
+                        <h2> Mulimedia Production</h2>
+                        <p> Interactive Video - The Activist Report is a cross platform political entertainment series. I produced all media content and developed the entire platform. Check out the interactive music video. </p></span>
+                </div>
+            </div>
+                
+                
+           <div class="box2" id="hideme">
+              <img class="img3" src="images/hogar.png">
+                <div class="hover2"> 
+                    <span class="boxinfo2">
+                        <a class="button5a" href="http://www.en.hogarcotui.org/health-center/" target="_blank"> Website</a>
+                        <h2>Hogar Website</h2>
+                        <p> Content Strategy - Conducted on-camera client interviews to gather, organize, and coordinate the hierarchy of content to video, design, and development team members.</p></span></div>
+            </div>
+                 <div class="box2">
+              <img class="img3" src="/images/motion.gif">
+                <div class="hover2"> 
+                    <span class="boxinfo3">
+                         <a class="button5c" href="/images/me.png" target="_blank">ME Process</a>
+                         <a class="button5c" id="hideme2" href="https://youtu.be/0H-sLgPuoPw" target="_blank">Food Graphics</a>
+                                               <h2>Motion Graphics</h2>
+                        <p> Visuals - Illistrator, Photoshop, After Effects, Primere, Edge Animate.. I have a close relationship with them all.</p></span>                      </div>
+            </div>
+             <div class="box2" id="hideme">
+              <img class="img3" src="images/Vlog.png">
+                <div class="hover2"> 
+                    <span class="boxinfo2">
+                        <a class="button5b" href="http://crewgreen.wordpress.com" target="_blank">Vlog</a>
+                        <a class="button5b"  href="https://www.facebook.com/ActivistReport" target="_blank">Facebook</a>
+                            <h2> Vlog and Social</h2>
+                            <p> Video, Writing - Used hootsuite, wordpress, &#38; Facebook sponsor ads to generate over 7,000 likes &#38; 70,000 impressions. (averaged $1 per 1400 impressions, 1$ per 140 likes)</p>
+                            
+                    </span>
+                </div>
+            </div> 
+            
+             <div class="box2">
+              <img class="img3" src="images/com.png">
+                <div class="hover2"> 
+                    <span class="boxinfo2">
+                        <a class="button6" href="http://www.esteemathletic.com/" target="_blank">Commercial</a>
+                                               <h2> Production Manager </h2>
+                      <p> Script, Cinematography - Directed production team and operated primary camera for esteem athletics website and social media video. Also, assisted with branding and website layout.</p>
+                    </span>
+                </div>
+            </div>
+                   
+            
+                 <div class="box2" id="hideme">
+              <img class="img3" src="images/doc2.png">
+                <div class="hover2"> 
+                    <span class="boxinfo2">
+                        <a class="button5c" href="https://matteastman.wordpress.com/2014/05/12/selected-as-a-story-telling-delegate-into-national-environmental-leadership-program/" target="_blank">Aramark</a>
+                        <a class="button5c" id="hideme2" href="https://matteastman.wordpress.com/2014/05/12/pbs-video-nomination-recycle-the-digestive-cycle/" target="_blank">Cows</a>
+                        <a class="button5c" id="hideme2" href="https://matteastman.wordpress.com/treehouse-hippie/" target="_blank">Treehouse</a>
+                            <h2> Documentaries </h2>
+                            <p> Script, Produce - I've created three independent documentires. "You are what you Eat: Aramark" won 1st place in a Human Rights contest and a national eco-storytelling delegate award.</p>
+                    </span>
+                </div>
+                </div>  
+        </div> 
+                    <span class="slideno"></span>        
+<!--                    <a class="button1" data-slide="2" title=""></a>-->
+                    <a class="button" data-slide="7" title=""></a>   
+            </div>     
+ 
+       
+        
+      
+     
+<!--End Slide 3-->
+<!--
+            <div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
+                <a class="button2" href="http://mattheweastman.com/SimplyLocal" target="_blank"> See my Process </a>
+                <div class="sl3"><img src="images/SL_3.png" height="100%" width="100%"></div>
+
+                <span class="slideno"></span>
+                <a class="button1" data-slide="3" title=""></a>
+                <a class="button" data-slide="5" title=""></a>
+            </div> 
+-->
+<!--End Slide 4
+            <div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="2.0">
+                    <a class="button3" href="http://Mattheweastman.com/SimplyLocal" target="_blank"> Download Resume </a>
+                        <span class="slideno"></span>
+                        <iframe class ="resume" width="100%" height="100%" src="docs/Eastman_Resume.pdf" allowfullscreen ></iframe>
+                    <a class="button1" data-slide="4" title=""></a>
+                    <a class="button" data-slide="6" title=""></a>
+            </div>
+End Slide 5 -->
+
+<!--
+<div class="slide" id="slide6" data-slide="6" data-stellar-background-ratio=".5"> 
+            <span class="slideno"></span>
+            <a class="button1" data-slide="5" title=""></a>
+            <a class="button" data-slide="7" title=""></a>
+    
+</div>
+-->
+<!--End Slide 6 -->
+
+<div class="slide" id="slide7" data-slide="7" >
+        
+   <iframe src="http://MatthewEastman.com/InterviewME" height='100%' width='100%'></iframe>
+        <div id="slideHeader3" class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0s">
+            <a href="mailto:DesignEastman@gmail.com">DesignEastman@gmail.com</a>
+       
+        <span class="soc">
+            <ul>
+                <a href="https://twitter.com/MatthewEast40" target="_blank"><li><i class="fa fa-twitter-square"></i></li></a>
+                <a href="https://www.facebook.com/matthew.eastman.31" target="_blank"><li><i class="fa fa-facebook-square"></i></li></a>
+                <a href="mailto:DesignEastman@gmail.com"><li><i class="fa fa-envelope-o"></i></li></a>
+            </ul>
+    </span> 
+            <span class="slideno"></span>                
+            <a class="button1" data-slide="2" title=""></a>
+<!--            <a class="button" data-slide="8" title=""></a>-->
+    </div>   </div>  
+   
+<!--End of 7-->
+
+<!--
+<div class="slide" id="slide7" data-slide="8" data-stellar-background-ratio="-3.">
+    
+    <iframe width="100%" height="100%" src="" allowfullscreen ></iframe>
+
+   
+     <a class="button1" data-slide="7" title=""></a>
+            <a class="button" data-slide="9" title=""></a>
+    
+    
+</div>
+
+ 
+   <div class="slide" id="slide8" data-slide="8" data-stellar-background-ratio="-3.">
+    
+-->
+   
+
+<script>
+ new WOW().init();
+</script>
+ 
+        </body>
+       </html>
+       
